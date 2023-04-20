@@ -6,5 +6,5 @@
 NEED TO IMPORT: `javax.swing.*;`
  
 # Table of Contents
-[JFrames](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JFrames)
-[JLabels](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JLabels)
+1. [JFrames](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JFrames) 
+2. [JLabels](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JLabels)
