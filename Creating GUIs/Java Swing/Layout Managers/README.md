@@ -20,8 +20,8 @@ To set the container to a specific position >> `*.add(container, BorderLayout.PO
     - now you have a parent container holding a sub/child container 
 
 **Properties of containers:**
-Horizontal Containers (East/West) will resize vertically and not horizontally 
-Vertical Containers (North/South) will resize horizontally, and not vertically 
+Horizontal Containers (East/West) will resize vertically and not horizontally <br>
+Vertical Containers (North/South) will resize horizontally, and not vertically <br>
 Center Container will resize both horizontally and vertically 
 
 * Other property >> extra space in layout is added to the center area 
