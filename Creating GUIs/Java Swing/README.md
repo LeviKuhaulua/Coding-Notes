@@ -3,7 +3,8 @@
 
 [Video for Learning](https://www.youtube.com/watch?v=Kmgo00avvEw)
 
-NEED TO IMPORT: `javax.swing.*;`
+NEED TO IMPORT: `javax.swing.*;` & `java.awt.*`
+- `java.awt.*` is needed for some components (styling and other options) 
  
 # Table of Contents
 1. [JFrames](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JFrames) 
