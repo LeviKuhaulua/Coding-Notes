@@ -9,3 +9,4 @@ NEED TO IMPORT: `javax.swing.*;`
 1. [JFrames](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JFrames) 
 2. [JLabels](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JLabels)
 3. [JPanels](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JPanels)
+4. [Layout Managers](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/Layout%20Managers);
