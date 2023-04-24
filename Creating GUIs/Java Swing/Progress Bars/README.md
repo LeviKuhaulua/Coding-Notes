@@ -23,6 +23,6 @@ try {
 `Thread.sleep(n)` pauses program for n units (usually milliseconds) 
 - helps with smoothly incrementing progress
 
-**Properties**
+**Properties** <br> 
 `setForeground(Color)` will change the fill color <br> 
 `setBackground(Color)` will make the background of the bar equal to that color
