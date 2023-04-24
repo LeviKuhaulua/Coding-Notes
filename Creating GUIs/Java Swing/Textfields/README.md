@@ -6,3 +6,5 @@ Initialize: `JTextField name = new JTextField`
 - for dimensions use >> `*.setPreferredSize(new Dimension(width, height))
 - when run, you can now add in text
 
+**Uneditable Text Fields** >> `*.setEditable(false)`
+- useful where you want to display information, but not have user edit them 
