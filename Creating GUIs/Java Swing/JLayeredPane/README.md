@@ -17,7 +17,7 @@ Initialize: `JLayeredPane aLayeredPane = new JLayeredPane()`
 4. PopUp
 5. Drag >> last component
 
-**Specifying which panel**
+**Specifying which panel** <br> 
 `*.add(JComponent, Integer.valueOf(0-5))`
 - Higher number = higher placements 
 OR <br> 
