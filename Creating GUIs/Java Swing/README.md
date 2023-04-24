@@ -18,3 +18,4 @@ NEED TO IMPORT: `javax.swing.*;` & `java.awt.*`
 9. [Textfields](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/Textfields)
 10. [JSliders](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JSliders)
 11. [Progress Bars](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/Progress%20Bars)
+12. [Menu Bars](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/Menu%20Bars)
