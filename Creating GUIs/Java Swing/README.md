@@ -12,3 +12,4 @@ NEED TO IMPORT: `javax.swing.*;` & `java.awt.*`
 3. [JPanels](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JPanels)
 4. [Layout Managers](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/Layout%20Managers)
 5. [Buttons](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/Buttons) 
+6. [JLayeredPane](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JLayeredPane)
