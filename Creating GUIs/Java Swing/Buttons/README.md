@@ -20,5 +20,8 @@ Listening for events:
 `*.addActionListener(e -> code)`
 - advanced concept --> research more about lambda expressions 
 
+**Another Function** >> `*.setEnabled(false)`
+- user cannot click on button again 
+
 **Notes to remember** <br> 
 Setting text to a button will cause a border to be around it, please use `*.setFocusable(false)` to get rid of that border. 
