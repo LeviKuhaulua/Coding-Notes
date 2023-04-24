@@ -34,3 +34,14 @@ To create a frame, one just needs to do the following: `JFrame name = new JFrame
             - from range of 0 to 255 OR use Hexadecimal value [0x(6 digits)]
 
 **What you can do is make a child class that extends JFrame and then use methods there**
+
+Example: <br>
+```
+public class aFrame extends JFrame {
+    aFrame() {
+        // Set up frame dimensions
+    }
+}
+``` 
+<br> 
+Useful for shortening code and making code easier to read 

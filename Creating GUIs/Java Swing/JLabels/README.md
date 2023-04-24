@@ -43,6 +43,7 @@ Vertical Position: `*.setVerticalTextPosition(JLabel.POSITION)`
     1. `*.setBackground(Color)` 
     2. Then do `*.setOpaque(true)` to display background color 
     - **Labels like to take up as much room as possible, even when resizing**
+- **For these styling** many of these methods apply to almost all of these components (Not unique to any class/method)
 
 **Sizing & Positioning Labels**
 - Default Layout Manager will make label take up as much room as possible

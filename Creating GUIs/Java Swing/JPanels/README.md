@@ -13,7 +13,7 @@
 
 
 panels use a flow layout manager which means that GUI components added into panel will fill components in first row (top-centered alignment) until full <br> 
-To workaround this you can use `*.setLayout(new BorderLayout())` to make it aligned to the middle-left of the container
+To workaround this you can use `*.setLayout(new layoutType())` in order to set the layout to something else 
 
 **Other Properties** 
 Setting up other GUI components manually (`*.setBounds(dimensions)`), the content will be set up relative to the position of it's **CONTAINER**. In other words the frame or panel that it is stored in. 
