@@ -16,3 +16,4 @@ NEED TO IMPORT: `javax.swing.*;` & `java.awt.*`
 7. [Pop-up Windows](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/Pop-up%20Windows)
 8. [JOptionPane](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JOptionPane)
 9. [Textfields](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/Textfields)
+10. [JSliders](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JSliders)
