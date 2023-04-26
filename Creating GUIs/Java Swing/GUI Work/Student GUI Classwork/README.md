@@ -9,4 +9,4 @@ For this assignment, we are creating a GUI that allows user to input the grade f
 2. Grading Panel will contain a vertical slider to allow user to input the grade 
     - Major tick mark interval: 10
     - Minor tick mark interval: 2
-3. Output Panel will contain a JTextField that will set the text
+3. Output Panel will contain a JTextField that show the grade that user entered in the slider 
