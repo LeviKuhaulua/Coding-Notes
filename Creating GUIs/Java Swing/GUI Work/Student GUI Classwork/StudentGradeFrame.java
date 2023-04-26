@@ -1,5 +1,5 @@
 import javax.swing.*; 
-import java.awt.*; 
+import java.awt.*;
 
 public class StudentGradeFrame {
     private JFrame studentGUI; // Main Window
@@ -28,6 +28,10 @@ public class StudentGradeFrame {
      * configureParentPanels will border and size the panels to the frame 
      */
     private void configureParentPanels() {
+        // Variables for sizing panels 
+        final int panelWidth = 200; 
+        final int panelHeight = 300; 
+
         // Setting up 
         studentPanel = new JPanel(); 
         gradingPanel = new JPanel(); 
@@ -40,9 +44,9 @@ public class StudentGradeFrame {
         
 
         // Sizing Panels
-        studentPanel.setPreferredSize(new Dimension(200, 300)); 
-        gradingPanel.setPreferredSize(new Dimension(200, 300));
-        outputPanel.setPreferredSize(new Dimension(200, 300));
+        studentPanel.setPreferredSize(new Dimension(panelWidth, panelHeight)); 
+        gradingPanel.setPreferredSize(new Dimension(panelWidth, panelHeight));
+        outputPanel.setPreferredSize(new Dimension(panelWidth, panelHeight));
         
         
     }
