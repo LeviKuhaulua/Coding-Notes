@@ -5,6 +5,9 @@
 
 NEED TO IMPORT: `javax.swing.*;` & `java.awt.*`
 - `java.awt.*` is needed for some components (styling and other options) 
+
+## Training Grounds
+[Swing Practice](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/GUI%20Work)
  
 # Table of Contents
 1. [Frames](https://github.com/LeviKuhaulua/Coding-Notes/tree/main/Creating%20GUIs/Java%20Swing/JFrames) 
