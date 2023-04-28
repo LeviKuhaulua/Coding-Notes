@@ -1,12 +1,10 @@
 import javax.swing.*; 
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener; 
 
 
-public class StudentGradeFrame implements ActionListener, ChangeListener{
+public class StudentGradeFrame implements ChangeListener{
     private JFrame studentGUI; // Main Window
     private JPanel studentPanel, gradingPanel, outputPanel; // Three panels for design. These are the parent panels 
     private JPanel selectStudentPanel, inputGradePanel, outputGradePanel; // The three sub-panels for the parent panels 
@@ -14,8 +12,6 @@ public class StudentGradeFrame implements ActionListener, ChangeListener{
     private JSlider inputGrade; // Slider for user to input grades 
     private JTextField outputGrade; //  textfield to output the grades of a student
     private int grade; // To get the grade from the slider and then convert to a letter grade 
-    private JButton inputButton; // For users to select button to get the input of the 
-
 
     StudentGradeFrame() {
         studentGUI = new JFrame("Inputting Student Grades"); 
@@ -157,13 +153,6 @@ public class StudentGradeFrame implements ActionListener, ChangeListener{
     }
     
 
-    @Override 
-    public void actionPerformed(ActionEvent e) {
-        if (e.getSource() == inputButton) {
-            grade = inputGrade.getValue(); 
-            System.out.println(grade);
-        }
-    }
    
     @Override
     public void stateChanged(ChangeEvent e) {
