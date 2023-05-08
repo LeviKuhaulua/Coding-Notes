@@ -30,4 +30,14 @@ if (* == JFileChooser.APPROVE_OPTION) {
 
 
 
+```
+chosenFile = fileChooser.getSelectedFile().getAbsoluteFile(); 
+FileInputStream fileInput = new FileInputStream(chosenFile); 
+ByteArrayOutputStream fileContents = new ByteArrayOutputStream();
+byte[] fileContentsBytes = new byte[(int) chosenFile.length()]; 
+fileInput.read(fileContentsBytes); // taking all the characters in the file and adding them to a byte array 
+fileContents.write(fileContentsBytes, 0, fileContentsBytes.length); // writing the bytes into an output stream 
+textFileContents.setText(fileContents.toString()); // turning each byte into the string equivalent 
+```
 
+**To get every line in the file contents.**
