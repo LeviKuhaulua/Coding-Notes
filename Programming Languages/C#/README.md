@@ -20,3 +20,6 @@ How to - Run Project in Terminal
 1. CMD >> `dotnet run` >> `Enter`
 2. Code runner extension in VSC 
 - File >> Preferences >> `Run in Terminal` >> Check box >> open JSON Settings >> for `csharp` - enter `cd $dir && dotnet run $fileName` >> Save changes 
+
+# NOTES 
+Concepts and coding structure for things are relatively the same. 
