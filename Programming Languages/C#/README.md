@@ -1,7 +1,8 @@
-# Learning C#
+# Learning C# & Unity
 
-Understanding and learning how to code with C#. 
+Learning how to use C# and Unity. 
 
+__Install C#__ <br> 
 What you'll need: 
 1. C# SDK 
 2. C# Extension for Visual Studio Code
@@ -21,5 +22,34 @@ How to - Run Project in Terminal
 2. Code runner extension in VSC 
 - File >> Preferences >> `Run in Terminal` >> Check box >> open JSON Settings >> for `csharp` - enter `cd $dir && dotnet run $fileName` >> Save changes 
 
-# NOTES 
-Concepts and coding structure for things are relatively the same. 
+# Unity 
+What you'll need: 
+Unity Hub
+Unity Editor 
+Code Editor (i.e Visual Studio Code / Visual Studio)
+
+
+__Configure Visual Studio Code with Unity__ 
+1. Create a Project in Unity Hub 
+2. In New Project - do the following: 
+    - a. Import Visual Studio Code Package in Unity --> Packet Manager --> search for __Visual Studio Code__ --> Import 
+    - b. File --> Preferences --> External Tools --> Change to Visual Studio Code 
+
+<br> 
+
+Alternatively, 
+3. In Existing Project - do the following: 
+    - a. Import Visual Studio Code Package in Unity (if needed) 
+    - b. Change external tool to Visual Studio Code
+4. Test if functions work when creating a Script file in Unity 
+    - a. Open it up - should open in Visual Studio Code and must have a .csproj file in there 
+    - b. Extensions like Intellisense should work 
+
+__Troubleshooting Issues with Scripts__
+1. Verify that VSC, Dotnet SDK, Unity Hub & Editor are all the latest versions / compatible with each other __(AS OF 2023)__
+    - Dotnet SDK >> 8.0.100-preview.5.23303.2
+    - Unity Hub >> 3.5.0
+    - Unity Editor >> 2022.3.3f1
+    - VSC >> 1.79.2
+
+
