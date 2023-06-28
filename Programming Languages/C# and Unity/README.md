@@ -1,6 +1,6 @@
 # Learning C# & Unity
 
-Learning how to use C# and Unity. 
+Learning how to use C# and Unity - mainly __2D GAMES__ for now. 
 
 __Install C#__ <br> 
 What you'll need: 
