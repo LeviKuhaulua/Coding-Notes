@@ -1,4 +1,4 @@
-# How to -: Create a Map / Level Design
+# How to -: Create a 2D Map / Level Design
 
 Purpose - a quick guide to creating maps and detailing them in Unity via Visual Studio Code
 
