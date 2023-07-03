@@ -19,7 +19,7 @@ Action Maps are one of the ways that you can use to get the binds associated for
     - c. Add Bindings 
 <br> 
 
-Please use the following video as a guide to how [Action Maps](https://www.youtube.com/watch?v=xrLlZ1mHCTA) 
+Please use the following video as a guide to how [Action Maps](https://www.youtube.com/watch?v=xrLlZ1mHCTA) work. 
 
 <br> 
 
