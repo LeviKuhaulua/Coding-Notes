@@ -24,4 +24,4 @@ __Creating Tilemaps__:
 In the `Hierarchy`section, add a 2D tilemap component (make the tilemap `Rectangular`). Then open up the `Window` menu and select 2D then Tile Palette. Create a new Tile Palette and create a new Folder to contain those palettes. Drag n' Drop the Tileset onto the tile palette to create your map. 
 <br> 
 
-**IMPORTANT NOTE** -: To create details for the map, you will need to create multiple tile palettes. With one tile palette being in a higher "order" or layer so that it is not covered by an existing tile. 
+**IMPORTANT NOTE** : To create details for the map, you will need to create multiple tile palettes. With one tile palette being in a higher "order" or layer so that it is not covered by an existing tile. This will come in handy later on when doing `Collisions`. 
