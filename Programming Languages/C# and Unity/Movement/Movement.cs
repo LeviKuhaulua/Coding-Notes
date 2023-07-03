@@ -12,8 +12,11 @@ public class Movement : MonoBehavior {
     
     private Vector2 movementInput; // Getting the x and y values from player input when movement key is pressed 
 
+    private Animator animator; 
+
     private void Awake() {
         PlayerRb = GetComponent<Rigidbody2D>(); // Gets the Rigidbody2D component 
+        animator = GetComponent<Animator>(); // Get the Animator component 
     }
 
     // Movement is the 'Action' in the Action Map. 
@@ -21,6 +24,14 @@ public class Movement : MonoBehavior {
         movementInput = input.Get<Vector2>(); 
 
         Debug.log($"(x, y) -: ({movementInput.x}, {movementInput.y})"); // Checks if Vector2 values appear when user presses movement key 
+
+        // When player stops moving, ensures that the player will face the last direction they were moving in. 
+        if (movementInput.x != 0 || movementInput.y != 0) {
+            animator.setFloat("X", movementInput.x); 
+            animator.setFloat("Y", movementInput.y); 
+
+            animator.setBool("Moving", true); // to trigger movement animations
+        } else animator.setBool("Moving", false); // to trigger idle animations
 
     }
 
