@@ -18,7 +18,9 @@ Action Maps are one of the ways that you can use to get the binds associated for
     - b. Create an __Action Map__ with associated Actions (for 2D, choose Value for `Action Type` and Vector2 for `Control Type`)
     - c. Add Bindings 
 <br> 
-Please use the following video as a guide to how [Action Maps](https://www.youtube.com/watch?v=xrLlZ1mHCTA) work. 
+
+Please use the following video as a guide to how [Action Maps](https://www.youtube.com/watch?v=xrLlZ1mHCTA) 
+
 <br> 
 
 __Movement Script__: <br> 
